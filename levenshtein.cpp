@@ -18,12 +18,10 @@ int levenshteinDist(string word1, string word2) {
         return size1;
 
     // Sets the first row and the first column of the verification matrix with the numerical order from 0 to the length of each word.
-    int i = 0;
-    while (i <= size1)
-        verif[i][0] = i++;
-    int j = 0;
-    while (j <= size2)
-        verif[0][j] = j++;
+    for (int i = 0; i <= size1; i++)
+        verif[i][0] = i;
+    for (int j = 0; j <= size2; j++)
+        verif[0][j] = j;
 
     // Verification step / matrix filling.
     for (int i = 1; i <= size1; i++) {
