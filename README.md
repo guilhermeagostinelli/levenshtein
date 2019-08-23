@@ -18,7 +18,7 @@ There are two possible paths through the matrix that actually produce the least 
 
 ## Contributing
 
-Feel free to contribute with corrections, optimizations, etc. There's no strict guidelines on how one should contribute.
+Feel free to contribute with corrections, optimizations, etc. There are no strict guidelines on how one should contribute.
 
 ## License
 
